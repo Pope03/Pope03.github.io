@@ -1,59 +1,114 @@
+<!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <title>Superheroes</title>
-    <link rel="stylesheet" href="css/main.css">
     <style>
-      body{
-        font-family: Arial, sans-serif;
-        background-color: rgb(244,244,244);
-        text-align: center;
-      }
-      h1,h2,h3
-      {
-        color: black;
-      }
-      .colehead
-      {
-        color: blue;
-      }
-      h2{
-        color: white;
-      }
-      img{
-        height: 100px;
-      }
-      td, th {
-        border: 2px solid purple;
-        padding: 15px;
-        background-color: rgb(221, 221, 221)
-      }
-      table {
-        border-collapse: collapse;
-        box-shadow:0 0 10px rgb(0,0,0,0.1);
-      }
-      th{
-        background-color: white;
-        font-size: 18px;
-      }
-      img{ 
-        height: 100px;
-      }
-      </style> 
-  </head>
-  <body>
-    <h1>My Favorite Superheroes</h1>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background: linear-gradient(to right, #ff512f, #dd2476);
+            text-align: center;
+            color: white;
+        }
+        h1 {
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+            font-size: 2.5em;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 15px;
+            font-size: 1.2em;
+        }
+        th {
+            background: rgba(34, 34, 34);
+            color: rgba(255, 204, 0);
+            text-transform: uppercase;
+        }
+        tr:nth-child(even) {
+            background: rgba(255, 255, 255, 0.7);
+        }
+        tr:hover {
+            background: rgba(255, 255, 255, 1);
+            transition: 0.3s;
+            transform: scale(1.02);
+        }
+        img {
+            height: 100px;
+            border-radius: 10px;
+            transition: transform 0.3s;
+            border: 3px solid #ffcc00;
+        }
+        img:hover {
+            transform: scale(1.1) rotate(5deg);
+            border-color: #ff512f;
+        }
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Favorite Superheroes</h1>
     <table>
+        <tr>
+            <th>Name</th>
+            <th>Alias</th>
+            <th>Image</th>
+            <th>Superpower</th>
+            <th>Weakness</th>
+        </tr>
+        <tr>
+            <th>Bruce Wayne</th>
+            <td>Batman</td>
+            <td><a href="images/batman image.jpg"><img src="images/batman image.jpg" alt="Batman"></a></td>
+            <td>Genius-level intellect, Martial arts, Technology, Being rich</td>
+            <td>Human limitations</td>
+        </tr>
+        <tr>
+          <th>Tony stark</th>
+            <td>Iron Man</td>
+            <td><a href="images/tonystark.webp"><img src="images/tonystark.webp" alt="Iron Man"></a></td>
+            <td>Powered armor suit, genius inventor</td>
+            <td>Arc reactor heart dependency</td>
+        </tr>
       <tr>
-        <th>Name</th>
-        <th>Alias</th>
-        <th>Superpower</th>
-        <th>Weakness</th>
+        <th>Scott Summers</th>
+            <td>Cyclops</td>
+            <td><a href="images/cyclops.jpg"><img src="images/cyclops.jpg" alt="Cyclops"></a></td>
+            <td>Optic energy Blast</td>
+            <td>Self control, Genetic flaw</td>
       </tr>
       <tr>
-        <td>Tony Stark</td>
-        <td>Iron Man</td>
-        <td><a href="images/tonystark.webp"><img src="images/tonystark.webp" alt="Iron Man"></a></td>
+        <th>Oliver Queen</th>
+            <td>Green Arrow</td>
+            <td><a href="images/green_arrow.jpg"><img src="images/green_arrow.jpg" alt="Green Arrow"></a></td>
+            <td>Bag of tricks, Quiver of trick arrows, quick wit of archery skills</td>
+            <td>Easily Distracted</td>
       </tr>
+      <tr>
+        <th>N/A</th>
+            <td>Silver Surfer</td>
+            <td><a href="images/silver_surfer.avif"><img src="images/silver_surfer.avif" alt="Silver Surfer"></a></td>
+            <td>SuperHuman Strength, Invulenerability, ability ot fly faster than light</td>
+            <td>Emotions and Sentimentality</td>
+      </tr>
+      <tr>
+        <th>Thor Odinson</th>
+            <td>God Of Thunder</td>
+            <td><a href="images/thor.avif"><img src="images/thor.avif" alt="God Of Thunder"></a></td>
+            <td>Hammer(Mjonir) control lighting, thunder</td>
+            <td>No Weaknesses</td>
+      </tr>
+    </table>
+</body>
+</html>
         
-
