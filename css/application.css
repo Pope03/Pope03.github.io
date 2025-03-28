@@ -1,42 +1,64 @@
-@font-face {
-    font-family: 'CustomHeadingFont';
-    src: url('fonts/heading-font.woff2') format('woff2');
-}
-
-@font-face {
-    font-family: 'CustomBodyFont';
-    src: url('fonts/body-font.woff2') format('woff2');
-}
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300;400;600&display=swap');
 
 body {
-    font-family: 'CustomBodyFont', sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f9f9f9;
     color: #333;
     margin: 0;
     padding: 20px;
 }
 
 h1, h2 {
-    font-family: 'CustomHeadingFont', sans-serif;
-    color: #2c3e50;
+    font-family: 'Lobster', cursive;
+    color: #d32f2f;
+    text-align: center;
 }
+
 
 iframe {
     display: block;
     margin: auto;
     border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
 
 img {
     width: 100%;
     max-width: 300px;
-    margin: 10px;
     border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 ul {
-    background: #ffffff;
+    background: #fff;
     padding: 15px;
     border-radius: 8px;
+    list-style-type: none;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+ul li {
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #444;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
