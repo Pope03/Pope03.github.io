@@ -16,6 +16,7 @@ h1,h2 {
             border-radius: 10px;
             transition: transform 0.3s;
             border: 3px solid #ffcc00;
+            image-align:center;
         }
  img:hover {
             transform: scale(1.1) rotate(5deg);
