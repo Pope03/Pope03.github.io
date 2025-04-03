@@ -2,5 +2,15 @@ import
 
 body {
   font-family: "Monospace", Monaco;
-  background-color:
+  background-color: linear-gradient;
+  text-align: center;
+  color: white; 
+}
+
+h1 {
+      text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+            font-size: 2.5em;
+        }
+
+
   
