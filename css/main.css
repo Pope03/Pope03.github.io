@@ -1,68 +1,50 @@
 import
 
 body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Poppins', sans-serif;
-  background: linear-gradient(135deg, #001d3d, #002855);
-  color: #ffffff;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-h1,h2 {
-  color: #FFC72C;
-  font-size: 3.5rem;
-  font-weight: 800;
-  margin-top: 60px;
-  text-shadow: 0 0 10px rgba(255, 199, 44, 0.7), 0 0 20px rgba(255, 199, 44, 0.5);
-  letter-spacing: 1.5px;
-  text-align: center;
-  animation: pulse 2s infinite ease-in-out;
-}
-
-@keyframes pulse {
-  0%, 100% {
-    text-shadow: 0 0 10px rgba(255, 199, 44, 0.7), 0 0 20px rgba(255, 199, 44, 0.5);
-  }
-  50% {
-    text-shadow: 0 0 20px rgba(255, 199, 44, 1), 0 0 40px rgba(255, 199, 44, 0.8);
-  }
-}
-
-img {
-  width: 85%;
-  max-width: 500px;
-  margin: 40px auto;
-  display: block;
-  border-radius: 25px;
-  filter: brightness(1.05) contrast(1.1);
-  opacity: 0.95;
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
-}
-
-img:hover {
-  transform: scale(1.03);
-  box-shadow: 0 16px 40px rgba(255, 199, 44, 0.5);
-}
-
-section {
-  background-color: rgba(0, 40, 85, 0.85); 
-  padding: 40px;
-  border-radius: 20px;
-  margin: 20px auto;
-  width: 90%;
-  max-width: 800px;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(4px);
-}
-
-section p {
-  font-size: 1.2rem;
-  line-height: 1.6;
-  color: #f5f5f5;
-  text-align: center;
-}
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background: linear-gradient(to right, #ff512f, #dd2476);
+            text-align: center;
+            color: white;
+        }
+        h1 {
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+            font-size: 2.5em;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background: rgba(0, 0, 0, 0.9);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            overflow: hidden;
+            color: white;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 15px;
+            font-size: 1.2em;
+        }
+        th {
+            background: #222;
+            color: #ffcc00;
+            text-transform: uppercase;
+        }
+        tr:nth-child(even) {
+            background: rgba(50, 50, 50, 0.7);
+        }
+        tr:hover {
+            background: rgba(80, 80, 80, 1);
+            transition: 0.3s;
+            transform: scale(1.02);
+        }
+        img {
+            height: 100px;
+            border-radius: 10px;
+            transition: transform 0.3s;
+            border: 3px solid #ffcc00;
+        }
+        img:hover {
+            transform: scale(1.1) rotate(5deg);
+            border-color: #ff512f;
+        }
