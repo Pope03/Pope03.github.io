@@ -1,50 +1,109 @@
 import
 
 body {
-            font-family: 'Comic Sans MS', cursive, sans-serif;
-            background: linear-gradient(to right, #ff512f, #dd2476);
-            text-align: center;
-            color: white;
-        }
-        h1 {
-            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
-            font-size: 2.5em;
-        }
-        table {
-            width: 80%;
-            margin: 20px auto;
-            border-collapse: collapse;
-            background: rgba(0, 0, 0, 0.9);
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-            border-radius: 10px;
-            overflow: hidden;
-            color: white;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 15px;
-            font-size: 1.2em;
-        }
-        th {
-            background: #222;
-            color: #ffcc00;
-            text-transform: uppercase;
-        }
-        tr:nth-child(even) {
-            background: rgba(50, 50, 50, 0.7);
-        }
-        tr:hover {
-            background: rgba(80, 80, 80, 1);
-            transition: 0.3s;
-            transform: scale(1.02);
-        }
-        img {
-            height: 100px;
-            border-radius: 10px;
-            transition: transform 0.3s;
-            border: 3px solid #ffcc00;
-        }
-        img:hover {
-            transform: scale(1.1) rotate(5deg);
-            border-color: #ff512f;
-        }
+  background: linear-gradient(to bottom right, #001d3d, #002855);
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 30px;
+}
+
+
+h2 {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+p {
+  line-height: 1.6;
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+/* 5. Links */
+a {
+  color: #FFC72C;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #FFD84A;
+}
+
+/* 6. Images */
+img {
+  width: 90%;
+  max-width: 500px;
+  display: block;
+  margin: 30px auto;
+  border-radius: 15px;
+  opacity: 0.95;
+  filter: drop-shadow(0 0 10px rgba(255, 199, 44, 0.3));
+  transition: transform 0.3s ease-in-out;
+}
+img:hover {
+  transform: scale(1.03);
+}
+
+/* 7. Buttons */
+button {
+  background-color: #FFC72C;
+  color: #002855;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #FFD84A;
+}
+
+/* 8. Navigation bar */
+nav {
+  background-color: rgba(0, 40, 85, 0.95);
+  padding: 10px 20px;
+  text-align: center;
+}
+nav a {
+  color: #ffffff;
+  margin: 0 15px;
+  font-weight: 500;
+}
+
+
+footer {
+  background-color: #001d3d;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+
+.card {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px;
+  max-width: 800px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
