@@ -1,23 +1,36 @@
 import
 
 body {
-  font-family: "Monospace", Monaco;
-  background-color: linear-gradient;
-  color: white; 
+  background-color: #f5f5f5; 
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
 }
 
-h1,h2 {
-      text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
-            font-size: 2.5em;
-        }
- img {
-            height: 100px;
-            border-radius: 10px;
-            transition: transform 0.3s;
-            border: 3px solid #ffcc00;
-        }
- img:hover {
-            transform: scale(1.1) rotate(5deg);
-            border-color: #ff512f;
-        }
-  
+img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 12px;
+  opacity: 0.95;
+  filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.3));
+  display: block;
+  margin: 20px auto;
+}
+
+
+h1 {
+  color: #002855; 
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 40px;
+}
+
+section {
+  background-image: url('https://example.com/background.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+  color: white;
+}
