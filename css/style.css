@@ -1,11 +1,5 @@
-/* === Base Reset === */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+import 
 
-/* === Body Styling === */
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #f4f4f4;
@@ -13,7 +7,6 @@ body {
   color: #002855; /* UNC Navy */
 }
 
-/* === Page Header === */
 h1 {
   text-align: center;
   color: #002855;
@@ -21,15 +14,14 @@ h1 {
   margin-bottom: 40px;
 }
 
-/* === Section Styling === */
 .section {
   background-color: white;
   max-width: 800px;
   margin: 0 auto 40px auto;
   padding: 2rem;
-  border: 3px dashed #ffc72c; /* UNC Gold */
+  border: 3px dashed #ffc72c; 
   border-radius: 16px;
-  box-shadow: 0 4px 20px rgba(0, 40, 85, 0.15); /* Navy shadow */
+  box-shadow: 0 4px 20px rgba(0, 40, 85, 0.15); 
   transition: transform 0.3s ease;
 }
 
@@ -37,7 +29,6 @@ h1 {
   transform: translateY(-5px);
 }
 
-/* === Section Title === */
 .section h2 {
   color: #002855;
   margin-bottom: 1rem;
@@ -47,7 +38,6 @@ h1 {
   padding-bottom: 4px;
 }
 
-/* === Paragraphs === */
 .section p {
   font-size: 1.1rem;
   line-height: 1.6;
