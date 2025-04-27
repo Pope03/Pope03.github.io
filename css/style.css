@@ -1,65 +1,52 @@
-import 
 
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.6;
-  background-color: #f9f9f9;
-  color: #333;
-  padding: 20px;
-}
-
-
-h1, h2, {
-  margin-bottom: 15px;
-  color: #222;
-}
-
-
-p {
-  margin-bottom: 10px;
-}
-
-
-a {
-  color: #007acc;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-
-.container {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 20px;
-  background: white;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-
-button, .btn {
-  display: inline-block;
-  background: #007acc;
-  color: #fff;
-  padding: 10px 20px;
-  margin-top: 10px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-button:hover, .btn:hover {
-  background: #005f99;
-}
-
-
-footer {
-  margin-top: 30px;
-  padding: 20px;
-  text-align: center;
-  font-size: 14px;
-  color: #777;
-}
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background: linear-gradient(to right, #ff512f, #dd2476);
+            text-align: center;
+            color: white;
+        }
+        h1 {
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+            font-size: 2.5em;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background: rgba(0, 0, 0, 0.9);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            overflow: hidden;
+            color: white;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 15px;
+            font-size: 1.2em;
+        }
+        th {
+            background: #222;
+            color: #ffcc00;
+            text-transform: uppercase;
+        }
+        tr:nth-child(even) {
+            background: rgba(50, 50, 50, 0.7);
+        }
+        tr:hover {
+            background: rgba(80, 80, 80, 1);
+            transition: 0.3s;
+            transform: scale(1.02);
+        }
+        img {
+            height: 100px;
+            border-radius: 10px;
+            transition: transform 0.3s;
+            border: 3px solid #ffcc00;
+        }
+        img:hover {
+            transform: scale(1.1) rotate(5deg);
+            border-color: #ff512f;
+        }
+        a {
+            text-decoration: none;
+        }
