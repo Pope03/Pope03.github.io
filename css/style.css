@@ -1,9 +1,65 @@
+import 
+
 body {
-  background-color: lightblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 20px;
 }
-h1 {
-  background-color: black;
+
+
+h1, h2, {
+  margin-bottom: 15px;
+  color: #222;
 }
-li {
-  background-color: black;
+
+
+p {
+  margin-bottom: 10px;
+}
+
+
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+
+button, .btn {
+  display: inline-block;
+  background: #007acc;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover, .btn:hover {
+  background: #005f99;
+}
+
+
+footer {
+  margin-top: 30px;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #777;
 }
