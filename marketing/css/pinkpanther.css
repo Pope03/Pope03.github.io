@@ -6,29 +6,34 @@ import
 }
 
 body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e6f2ff;
+  color: #222;
   line-height: 1.6;
   padding: 20px;
 }
 
 
 header {
-  color: #ffffff;
+  background-color: #0055a5;
+  color: white;
   padding: 20px;
   text-align: center;
+  border-bottom: 4px solid #ffd700;
 }
 
 header h1 {
-  margin-bottom: 10px;
-  font-size: 28px;
+  font-size: 30px;
+}
+
+nav {
+  margin-top: 10px;
 }
 
 nav a {
-  color: #ffffff;
+  color: #ffd700;
   text-decoration: none;
-  margin: 0 10px;
+  margin: 0 12px;
   font-weight: bold;
 }
 
@@ -38,39 +43,53 @@ nav a:hover {
 
 
 main {
-  margin-top: 20px;
+  margin-top: 30px;
 }
+
 
 section {
-  background-color: #ffffff;
-  padding: 15px;
+  background-color: white;
+  padding: 20px;
   margin-bottom: 20px;
+  border-left: 6px solid #0055a5;
   border-radius: 8px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 8px rgba(0, 85, 165, 0.1);
 }
 
+
 h2 {
-  color: #003366;
+  color: #0055a5;
   margin-bottom: 10px;
 }
 
+
+.welcome {
+  background-color: #d9ecff;
+  border-left: 6px solid #003366;
+}
+
+.welcome h2 {
+  color: #003366;
+}
+
+
 ul {
-  list-style-type: disc;
   margin-left: 20px;
+  list-style-type: disc;
 }
 
 
 footer {
+  background-color: #003366;
+  color: white;
   text-align: center;
   padding: 15px;
-  background-color: #003366;
-  color: #ffffff;
   margin-top: 40px;
-  border-top: 3px solid #ffcc00; 
+  border-top: 4px solid #ffd700;
 }
 
 footer a {
-  color: #ffcc00;
+  color: #ffd700;
   text-decoration: none;
 }
 
@@ -86,10 +105,10 @@ footer a:hover {
 
   nav a {
     display: block;
-    margin: 5px 0;
+    margin: 6px 0;
   }
 
   section {
-    padding: 10px;
+    padding: 15px;
   }
 }
